@@ -79,9 +79,9 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
         #OpenAppFilter
-        cd package
-        git clone https://github.com/destan19/OpenAppFilter.git
-        cd -
+        #cd package
+        #git clone https://github.com/destan19/OpenAppFilter.git
+        #cd -
         
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
