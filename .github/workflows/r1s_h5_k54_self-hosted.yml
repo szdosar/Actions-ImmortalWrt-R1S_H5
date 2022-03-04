@@ -8,7 +8,7 @@
 # Description: Build ImmortalWrt for R1S-H5 using GitHub Actions
 #
 
-name: Build OpenWrt R1S_H5-k5.4_self-hosted
+name: self-hosted Build OpenWrt R1S_H5-k5.4
 
 on:
   repository_dispatch:
@@ -35,7 +35,7 @@ env:
 
 jobs:
   build:
-#    runs-on: ubuntu-18.04
+    #runs-on: ubuntu-18.04
     runs-on: self-hosted
 
     steps:
